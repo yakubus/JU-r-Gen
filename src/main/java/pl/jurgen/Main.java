@@ -3,13 +3,13 @@ package pl.jurgen;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
+import javafx.scene.image.Image;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 
 public class Main extends Application {
-    public static void  Main(String[] args){
+    public static void Main(String[] args) {
         launch(args);
 
     }
@@ -19,6 +19,9 @@ public class Main extends Application {
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(this.getClass().getResource("/fxml/StagPaneWindow.fxml"));
         StackPane stackPane = loader.load();
+
+        Image icon = new Image("/icon.ico");
+        primaryStage.getIcons().add(new Image("/icon.ico"));
 
         Scene scene = new Scene(stackPane);
 

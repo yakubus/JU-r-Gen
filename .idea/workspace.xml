@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c107dbd4-de50-4515-8e9b-00c7dca61be9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/saveactions_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JU(r)Gen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JU(r)Gen.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jurgen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jurgen/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jurgen/controller/StackPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jurgen/controller/StackPaneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jurgen/services/DataModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jurgen/services/DataModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jurgen/services/ParseInputData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jurgen/services/ParseInputData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/StagPaneWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/StagPaneWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/StagPaneWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/StagPaneWindow.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/pl/jurgen/librares/commons-lang3-3.11.jar!/" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -56,8 +70,9 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="pl.jurgen.Main" />
-      <module name="JU(r)Gen" />
+      <module name="JUrGen" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.jurgen.*" />
@@ -119,6 +134,10 @@
       <screen x="-3840" y="-1248" width="2560" height="1400" />
     </state>
     <state x="-2967" y="-888" key="#Inspections/0.0.1470.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603231647462" />
+    <state x="-2840" y="-888" key="#Main" timestamp="1603275032855">
+      <screen x="-3840" y="-1248" width="2560" height="1400" />
+    </state>
+    <state x="-2840" y="-888" key="#Main/0.0.1472.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603275032855" />
     <state x="-2967" y="-888" key="#Project_Structure" timestamp="1603212324598">
       <screen x="-3840" y="-1248" width="2560" height="1400" />
     </state>
@@ -148,30 +167,35 @@
     </state>
     <state x="-2779" y="-805" key="FileChooserDialogImpl/0.0.1470.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603234896000" />
     <state x="-2779" y="-805" key="FileChooserDialogImpl/0.0.1474.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603226228272" />
-    <state width="1258" height="387" key="GridCell.Tab.0.bottom" timestamp="1603232722453">
+    <state width="2517" height="387" key="GridCell.Tab.0.bottom" timestamp="1603277571860">
       <screen x="-3840" y="-1248" width="2560" height="1400" />
     </state>
     <state width="1258" height="387" key="GridCell.Tab.0.bottom/0.0.1470.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603232722453" />
+    <state width="2517" height="387" key="GridCell.Tab.0.bottom/0.0.1472.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603277571860" />
     <state width="2517" height="387" key="GridCell.Tab.0.bottom/0.0.1474.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603229707020" />
-    <state width="1258" height="387" key="GridCell.Tab.0.center" timestamp="1603232722452">
+    <state width="2517" height="387" key="GridCell.Tab.0.center" timestamp="1603277571859">
       <screen x="-3840" y="-1248" width="2560" height="1400" />
     </state>
     <state width="1258" height="387" key="GridCell.Tab.0.center/0.0.1470.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603232722452" />
+    <state width="2517" height="387" key="GridCell.Tab.0.center/0.0.1472.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603277571859" />
     <state width="2517" height="387" key="GridCell.Tab.0.center/0.0.1474.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603229707019" />
-    <state width="1258" height="387" key="GridCell.Tab.0.left" timestamp="1603232722452">
+    <state width="2517" height="387" key="GridCell.Tab.0.left" timestamp="1603277571858">
       <screen x="-3840" y="-1248" width="2560" height="1400" />
     </state>
     <state width="1258" height="387" key="GridCell.Tab.0.left/0.0.1470.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603232722452" />
+    <state width="2517" height="387" key="GridCell.Tab.0.left/0.0.1472.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603277571858" />
     <state width="2517" height="387" key="GridCell.Tab.0.left/0.0.1474.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603229707019" />
-    <state width="1258" height="387" key="GridCell.Tab.0.right" timestamp="1603232722452">
+    <state width="2517" height="387" key="GridCell.Tab.0.right" timestamp="1603277571859">
       <screen x="-3840" y="-1248" width="2560" height="1400" />
     </state>
     <state width="1258" height="387" key="GridCell.Tab.0.right/0.0.1470.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603232722452" />
+    <state width="2517" height="387" key="GridCell.Tab.0.right/0.0.1472.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603277571859" />
     <state width="2517" height="387" key="GridCell.Tab.0.right/0.0.1474.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603229707020" />
-    <state x="-3079" y="-972" key="SettingsEditor" timestamp="1603235031823">
+    <state x="-3079" y="-972" key="SettingsEditor" timestamp="1603277116013">
       <screen x="-3840" y="-1248" width="2560" height="1400" />
     </state>
     <state x="-3079" y="-972" key="SettingsEditor/0.0.1470.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603235031823" />
+    <state x="-3079" y="-972" key="SettingsEditor/0.0.1472.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603277116013" />
     <state x="-3079" y="-972" key="SettingsEditor/0.0.1474.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603226237496" />
     <state x="-2967" y="-813" key="Vcs.Push.Dialog.v2" timestamp="1603234617716">
       <screen x="-3840" y="-1248" width="2560" height="1400" />

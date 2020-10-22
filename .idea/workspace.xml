@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c107dbd4-de50-4515-8e9b-00c7dca61be9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jurgen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jurgen/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jurgen/controller/StackPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jurgen/controller/StackPaneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/StagPaneWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/StagPaneWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JUrGen-1.0-SNAPSHOT-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/JUrGen-1.0-SNAPSHOT-shaded.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/JUrGen-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/JUrGen-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/original-JUrGen-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-JUrGen-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
@@ -161,32 +162,32 @@
     </state>
     <state x="-2779" y="-805" key="FileChooserDialogImpl/0.0.1470.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603234896000" />
     <state x="-2779" y="-805" key="FileChooserDialogImpl/0.0.1474.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603226228272" />
-    <state width="2517" height="195" key="GridCell.Tab.0.bottom" timestamp="1603389615314">
+    <state width="2517" height="211" key="GridCell.Tab.0.bottom" timestamp="1603399009973">
       <screen x="-3840" y="-1248" width="2560" height="1400" />
     </state>
     <state width="1258" height="387" key="GridCell.Tab.0.bottom/0.0.1470.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603232722453" />
-    <state width="2517" height="195" key="GridCell.Tab.0.bottom/0.0.1472.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603389615314" />
+    <state width="2517" height="211" key="GridCell.Tab.0.bottom/0.0.1472.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603399009973" />
     <state width="1429" height="8" key="GridCell.Tab.0.bottom/0.0.1472.864/-3840.-1248.2560.1400@0.0.1472.864" timestamp="1603280195932" />
     <state width="2517" height="387" key="GridCell.Tab.0.bottom/0.0.1474.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603229707020" />
-    <state width="2517" height="195" key="GridCell.Tab.0.center" timestamp="1603389615314">
+    <state width="2517" height="211" key="GridCell.Tab.0.center" timestamp="1603399009973">
       <screen x="-3840" y="-1248" width="2560" height="1400" />
     </state>
     <state width="1258" height="387" key="GridCell.Tab.0.center/0.0.1470.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603232722452" />
-    <state width="2517" height="195" key="GridCell.Tab.0.center/0.0.1472.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603389615314" />
+    <state width="2517" height="211" key="GridCell.Tab.0.center/0.0.1472.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603399009973" />
     <state width="1429" height="8" key="GridCell.Tab.0.center/0.0.1472.864/-3840.-1248.2560.1400@0.0.1472.864" timestamp="1603280195931" />
     <state width="2517" height="387" key="GridCell.Tab.0.center/0.0.1474.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603229707019" />
-    <state width="2517" height="195" key="GridCell.Tab.0.left" timestamp="1603389615314">
+    <state width="2517" height="211" key="GridCell.Tab.0.left" timestamp="1603399009973">
       <screen x="-3840" y="-1248" width="2560" height="1400" />
     </state>
     <state width="1258" height="387" key="GridCell.Tab.0.left/0.0.1470.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603232722452" />
-    <state width="2517" height="195" key="GridCell.Tab.0.left/0.0.1472.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603389615314" />
+    <state width="2517" height="211" key="GridCell.Tab.0.left/0.0.1472.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603399009973" />
     <state width="1429" height="8" key="GridCell.Tab.0.left/0.0.1472.864/-3840.-1248.2560.1400@0.0.1472.864" timestamp="1603280195931" />
     <state width="2517" height="387" key="GridCell.Tab.0.left/0.0.1474.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603229707019" />
-    <state width="2517" height="195" key="GridCell.Tab.0.right" timestamp="1603389615314">
+    <state width="2517" height="211" key="GridCell.Tab.0.right" timestamp="1603399009973">
       <screen x="-3840" y="-1248" width="2560" height="1400" />
     </state>
     <state width="1258" height="387" key="GridCell.Tab.0.right/0.0.1470.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603232722452" />
-    <state width="2517" height="195" key="GridCell.Tab.0.right/0.0.1472.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603389615314" />
+    <state width="2517" height="211" key="GridCell.Tab.0.right/0.0.1472.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603399009973" />
     <state width="1429" height="8" key="GridCell.Tab.0.right/0.0.1472.864/-3840.-1248.2560.1400@0.0.1472.864" timestamp="1603280195932" />
     <state width="2517" height="387" key="GridCell.Tab.0.right/0.0.1474.864/-3840.-1248.2560.1400@-3840.-1248.2560.1400" timestamp="1603229707020" />
     <state x="438" y="152" key="SettingsEditor" timestamp="1603279606483">

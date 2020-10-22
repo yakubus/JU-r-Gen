@@ -3,6 +3,7 @@ package pl.jurgen.controller;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
+import org.apache.commons.lang3.StringUtils;
 import pl.jurgen.services.ParseInputData;
 
 public class StackPaneController {
@@ -37,6 +38,12 @@ public class StackPaneController {
         outputText.setText(outputText.getText() + "\t\t\t.execute()\n" +
                 "\t\t\t.assertExpectations();\n" +
                 "\t}");
+    }
+
+    @FXML
+    public void clearButtonOnAstion() {
+        outputText.setText(StringUtils.EMPTY);
+        inputText.setText(StringUtils.EMPTY);
     }
 }
 

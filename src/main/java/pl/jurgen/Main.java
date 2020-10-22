@@ -4,7 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
-import javafx.scene.layout.StackPane;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 
@@ -18,7 +18,7 @@ public class Main extends Application {
 
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(this.getClass().getResource("/fxml/StagPaneWindow.fxml"));
-        StackPane stackPane = loader.load();
+        GridPane stackPane = loader.load();
 
         Image icon = new Image("/icon.ico");
         primaryStage.getIcons().add(new Image("/icon.ico"));
